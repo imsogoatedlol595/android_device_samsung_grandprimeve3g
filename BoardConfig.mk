@@ -12,12 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TW_THEME := portrait_hdpi
+# Custom TWRP Theme Color Combo
+TW_THEME := portrait_mdpi
 TW_CUSTOM_THEME := true
 
-# Base Theme Colors (HEX without #)
-TW_MAIN_COLOR := "0080FF"
+# Pure Black Background
 TW_BACKGROUND_COLOR := "000000"
+
+# Vibrant Orange Accents & Buttons (Hex: #FF6600)
+TW_MAIN_COLOR := "FF6600"
 
 # Platform
 TARGET_ARCH := arm
