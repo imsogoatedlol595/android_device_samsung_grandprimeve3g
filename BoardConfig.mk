@@ -12,6 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+TW_THEME := portrait_hdpi
+TW_CUSTOM_THEME := true
+
+# Base Theme Colors (HEX without #)
+TW_MAIN_COLOR := "0080FF"
+TW_BACKGROUND_COLOR := "000000"
+
 # Platform
 TARGET_ARCH := arm
 TARGET_BOARD_PLATFORM := sc8830
