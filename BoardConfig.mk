@@ -51,6 +51,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
 
 # Recovery
+TW_DEVICE_VERSION := mizoos_twrp_version
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
